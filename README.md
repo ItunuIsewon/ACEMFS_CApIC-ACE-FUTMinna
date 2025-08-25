@@ -4,10 +4,10 @@
 
 ******
 ## Trainer
-<img src="Images/Trainer.png" alt="Alt text" width="500">
+<img src="Images/Trainer.png" alt="Alt text" width="250">
 
 ## Teaching Assistants
-<img src="Images/Teaching Assts.png" alt="Alt text" width="500">
+<img src="Images/Teaching Assts.png" alt="Alt text" width="1000">
 
 
 ******

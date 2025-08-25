@@ -57,7 +57,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 [Sequential_Retrieval&Quality_Control-using_Galaxy](Modules/Sequential_Retrieval&Quality_Control-using_Galaxypdf.pdf.md)
 
 ## Day 2
-[Mycotoin_data1](Dataset/mycotoxin_data.csv.md)
+[Mycotoxin data1](Dataset/mycotoxin_data.csv.md)
 
 [Mycotoxin data](Dataset/mycotoxin_data2.csv.md)
 

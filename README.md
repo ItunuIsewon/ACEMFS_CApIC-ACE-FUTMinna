@@ -1,6 +1,6 @@
 # ACEMFS FUT Minna Bioinformatics Workshop
 
-# Workshop Title: Bioinformatics
+# Workshop Title: Bioinformatics Training
 
 ******
 ## Trainers

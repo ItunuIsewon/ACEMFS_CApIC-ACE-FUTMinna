@@ -50,4 +50,9 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 3:00 PM - 4:30 PM| **Wrap-up: Tools Integration & Project Ideas**| Group discussion: Apply tools to participants' own datasets or design mini-projects
 4:00 PM - 4:30 PM| **Certificates & Feedback**| Evaluation, group photo
 
+******
 
+## Day 1
+[Course Module](Modules/Sequential_Retrieval&Quality_Control-using_Galaxypdf.pdf.md)
+
+## Day 2

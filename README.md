@@ -3,7 +3,9 @@
 # Workshop Title: Bioinformatics Training
 
 ******
-## Trainers
+## Trainer
+
+
 
 ## Teaching Assistants
 

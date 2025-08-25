@@ -61,7 +61,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 ### Dataset file
 [Mycotoxin data1](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Dataset/mycotoxin_data.csv)
 
-[Mycotoxin data](Dataset/mycotoxin_data2.csv.md)
+[Mycotoxin data](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Dataset/mycotoxin_data2.csv)
 
 ### Differential Expression 
 

@@ -54,14 +54,20 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 ## Course Module
 ## Day 1
+### Sequence Retrieval & Quality Control (Galaxy)
 [Sequential_Retrieval&Quality_Control-using_Galaxy](Modules/Sequential_Retrieval&Quality_Control-using_Galaxypdf.pdf.md)
 
 ## Day 2
+### Dataset file
 [Mycotoxin data1](Dataset/mycotoxin_data.csv.md)
 
 [Mycotoxin data](Dataset/mycotoxin_data2.csv.md)
 
+### Differential Expression 
+
 [Differential Expression](Modules/Differential_Expression_Analysis.Rmd.md)
+
+### Phylogenetics
 
 [Phylogenetics](Modules/Phylogeneics_guide.pdf.md)
 

@@ -65,7 +65,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 ### Differential Expression 
 
-[Differential Expression](Modules/Differential_Expression_Analysis.Rmd.md)
+[Differential Expression](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Differential%20Expression%20Analysis.Rmd)
 
 ### Phylogenetics
 

@@ -1,1 +1,2 @@
-# ACEMFS_FUT_Minna_Bioinformatics_Workshop
+# ACEMFS FUT Minna Bioinformatics Workshop
+

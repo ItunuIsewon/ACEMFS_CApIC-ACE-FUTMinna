@@ -69,5 +69,5 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 ### Phylogenetics
 
-[Phylogenetics](Modules/Phylogeneics_guide.pdf.md)
+[Phylogenetics](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics_Guide.pdf)
 

@@ -11,7 +11,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 <img src="Images/Trainer.png" alt="Alt text" width="300">
 
 ## Teaching Assistants
-<img src="Images/Teaching Assts.png" alt="Alt text" width="700">
+<img src="Images/Teaching Assts.png" alt="Alt text" width="800">
 
 
 ******

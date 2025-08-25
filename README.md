@@ -2,6 +2,9 @@
 
 # Workshop Title: Bioinformatics Training
 
+<img src="Images/Logos.png" alt="Alt text" width="500">
+
+
 ******
 ## Trainer
 <img src="Images/Trainer.png" alt="Alt text" width="250">

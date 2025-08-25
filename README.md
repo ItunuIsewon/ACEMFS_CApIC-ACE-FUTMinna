@@ -4,10 +4,11 @@
 
 ******
 ## Trainer
-
-
+<img src="Images/Trainer.png" alt="Alt text" width="827">
 
 ## Teaching Assistants
+<img src="Images/Teaching Assts.png" alt="Alt text" width="2000">
+
 
 ******
 ## Workshop Overview

@@ -9,6 +9,7 @@ output: html_document
 # Introduction
 
 In this tutorial, we will perform a **differential expression analysis** on RNA-seq data from the dataset **GSE179477**.  
+Download the file [here](https://drive.google.com/file/d/19BcWcMqddtN9YdMqGONyyHJgcvF8LUQw/view?usp=drive_link)
 We will use the **DESeq2** package, which is widely used for RNA-seq analysis because it models count data using the negative binomial distribution.  
 
 The goal is to demonstrate key steps:  
@@ -265,3 +266,4 @@ Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+

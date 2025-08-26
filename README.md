@@ -57,7 +57,10 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 **Workshop Introduction**
 
-[Introduction](https://raw.githubusercontent.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/main/Modules/Bioinformatics_Workshop_Introduction.pdf)
+[Introduction](<a href="https://raw.githubusercontent.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/main/Modules/Bioinformatics_Workshop_Introduction.pdf" target="_blank">
+   Open Workshop Introduction PDF
+</a>
+)
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 

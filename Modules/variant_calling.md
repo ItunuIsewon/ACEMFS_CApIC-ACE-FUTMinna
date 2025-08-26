@@ -1,6 +1,6 @@
 ## Step-by-Step Guide: Variant Calling 
 
-**Author: Itunuoluwa Isewon PhD**
+**Author: Dr. Itunuoluwa Isewon**
 
 **Email: itunu.isewon@covenantuniversity.edu.ng**
 

@@ -76,7 +76,7 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 **Workshop Introduction**
 
-[Introduction](Modules/Bioinformatics_Workshop_Introduction.pdf)
+[Introduction PDF file](Modules/Bioinformatics_Workshop_Introduction.pdf)
 
 **Biological Databases and Resources**
 

@@ -68,7 +68,7 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 [Introduction to Biological Databases and Resources](Modules/Introduction_to_Biological_Databases_and_Resources.pdf)
 
-**Primer Design**
+**Primer Design for Gene Targeting**
 
 [Primer Design](Modules/Primer_Design.pdf)
 

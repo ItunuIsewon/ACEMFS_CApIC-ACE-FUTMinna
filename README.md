@@ -4,6 +4,7 @@
 
 <img src="Images/Logos.png" alt="Alt text" width="500">
 
+
 The **Covenant Applied Informatics and Communication Africa Centre for Ecellence (CApIC-ACE)** was established based on the urgent need to build a critical mass of indigenous African scientists with the necessary bioinformatics, molecular biology, and information & communications engineering knowledge and skills to drive and sustain impactful researches in the areas of malaria, prostate and breast cancer as well as cloud & high performance computing as related to personalized medicine, in collaboration with academic, clinical and industrial institutions in Nigeria, West Africa, Africa, Germany, France, US and UK.
 
 **CApIC-ACE** in conjuction with **ACEMFS** is hosting this 3 days hands-on Bioinformatics training in FUT Minna from Wednesday 27th August, 2025 to Friday 29th August, 2025. This training is focused on **Bioinformatics for mycology and mycotoxicology research**.The role of CApIC-ACE in this workshop is to provide support, guidance, and networking for participants.

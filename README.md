@@ -76,6 +76,10 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 [Sequential Retrieval & Quality Control using Galaxy](Modules/Sequence_Retrieval&Quality_Control-using_Galaxypdf.pdf)
 
+**Variant Calling and Gene Targeting**
+
+[Variant Calling](Modules/variant_calling.md)
+
 ## Day 2
 
 **Practical - Introduction to R**

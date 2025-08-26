@@ -69,15 +69,12 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 [Primer Design](Modules/Primer_Design.pdf)
 
-**Protein Structure & Databases**
-
-[Introduction to Protein Structure & Databases](Modules/Introduction_to_Protein_Structure&Databases.pdf)
-
 **Sequence Retrieval & Quality Control (Galaxy)**
 
 [Sequential Retrieval & Quality Control using Galaxy](Modules/Sequence_Retrieval&Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
+
 **Practical - Introduction to R**
 
 [Introduction to R](Modules/Introduction_to_R.md)
@@ -91,6 +88,12 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 [Phylogenetics](Modules/Phylogenetics.md)
 
 [Phylogenetics Guide pdf](Modules/Phylogenetics_Guide.pdf)
+
+## Day 3
+
+**Protein Structure & Databases**
+
+[Introduction to Protein Structure & Databases](Modules/Introduction_to_Protein_Structure&Databases.pdf)
 
 
 ******

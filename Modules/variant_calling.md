@@ -1,6 +1,7 @@
 ## Step-by-Step Guide: Variant Calling 
 
 **Author: Itunuoluwa Isewon PhD**
+
 **Email: itunu.isewon@covenantuniversity.edu.ng**
 
 You have been provided with a text file which contains six sample ID, upload by clicking on the upload button and drop the file.

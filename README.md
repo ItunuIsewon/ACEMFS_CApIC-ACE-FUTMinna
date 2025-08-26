@@ -57,27 +57,24 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 **Workshop Introduction**
 
-[Introduction](<a href="https://raw.githubusercontent.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/main/Modules/Bioinformatics_Workshop_Introduction.pdf" target="_blank">
-   Open Workshop Introduction PDF
-</a>
-)
+[Introduction](Modules/Bioinformatics_Workshop_Introduction.pdf)
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 
-[Sequential_Retrieval&Quality_Control-using_Galaxy](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Sequence_Retrieval%26Quality_Control-using_Galaxypdf.pdf)
+[Sequential_Retrieval&Quality_Control-using_Galaxy](Modules/Sequence_Retrieval_Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
 **Practical - Introduction to R**
 
-[Introduction to R](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Introduction%20to%20R.md)
+[Introduction to R](Modules/Introduction_to_R.md)
 
 **Practical - Differential Expression Analysis**
 
-[Differential Expression Analysis](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Differential%20Expression%20Analysis.md)
+[Differential Expression Analysis](Modules/Differential_Expression_Analysis.md)
 
 **Practical - Phylogenetics**
 
-[Phylogenetics](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics.md)
+[Phylogenetics](Modules/Phylogenetics.md)
 
 
 ******

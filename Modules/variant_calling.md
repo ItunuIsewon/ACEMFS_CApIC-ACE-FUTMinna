@@ -97,3 +97,25 @@ Why: it helps us to obtain a more intuitive comparison
 2.	Sort on column 6: Quality
 3.	Keep every other parameter as default.
 4.	Variants with high quality are now on top.
+
+### Variant Annotation with Ensembl Fungi VEP
+
+1.	Search for Variant Effect Predictor (VEP) in the Ensembl tools search bar.
+2.	Select the input file: choose the VCF file generated from the sorting step.
+3.	Species selection: Set species to your organism (e.g., Aspergillus flavus, Saccharomyces cerevisiae, etc.) from the Ensembl Fungi database.
+4.	Input format: keep as VCF.
+5.	Output options:Keep default output as tab-delimited text or select VCF with annotations if you prefer annotated VCF.
+6.	Annotations to include (keep defaults, but you can also enable if available):
+
+•	Gene symbol
+
+•	Consequence terms (missense, synonymous, stop gained, etc.)
+
+•	Protein domains (Pfam, InterPro)
+
+•	SIFT/PolyPhen predictions (if available for your species)
+
+•	Transcript ID and biotype
+
+In the meantime a list of Variants have  provided for you to use. Run each of these using the **“RUN VEP! For this line option”**.
+

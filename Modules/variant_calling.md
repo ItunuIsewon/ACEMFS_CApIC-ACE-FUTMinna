@@ -4,7 +4,7 @@
 
 **Email: itunu.isewon@covenantuniversity.edu.ng**
 
-📥 ### Dataset: Download the file [here](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing)
+📥 **Dataset:** Download the file [here](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing)
 
 You have been provided with a text file which contains six sample ID, upload by clicking on the upload button and drop the file.
 Quality control

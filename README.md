@@ -6,11 +6,7 @@
 
 The **Covenant Applied Informatics and Communication Africa Centre for Ecellence (CApIC-ACE)** was established based on the urgent need to build a critical mass of indigenous African scientists with the necessary bioinformatics, molecular biology, and information & communications engineering knowledge and skills to drive and sustain impactful researches in the areas of malaria, prostate and breast cancer as well as cloud & high performance computing as related to personalized medicine, in collaboration with academic, clinical and industrial institutions in Nigeria, West Africa, Africa, Germany, France, US and UK.
 
-The role of CApIC-ACE in this workshop is to provide support, guidance, and networking for participants.
-
-The **African Center of Excellence for Mycotoins and Food Safety (ACEMFS)** was stablished in 2019, through Africa Center of Ecellence Award, and co-sponsored by the Association of African Universities, the world bank, AFD and supported by the National Universities Commission of Nigeria. The main objective of the center is to produce a skilled workforce with quality training in the use of modern functional equipment and innovative research to assess the impacts of food pathogens and toxic chemical residues on the health and economy of the West and Central African sub-region. 
-
-**CApIC-ACE** in conjuction with **ACEMFS** is hosting this 3 days hands-on Bioinformatics training in FUT Minna from Wednesday 27th August, 2025 to Friday 29th August, 2025. This training is focused on **Bioinformatics for mycology and mycotoxicology research**
+**CApIC-ACE** in conjuction with **ACEMFS** is hosting this 3 days hands-on Bioinformatics training in FUT Minna from Wednesday 27th August, 2025 to Friday 29th August, 2025. This training is focused on **Bioinformatics for mycology and mycotoxicology research**.The role of CApIC-ACE in this workshop is to provide support, guidance, and networking for participants.
 
 **The training objectives are as follows:**
 

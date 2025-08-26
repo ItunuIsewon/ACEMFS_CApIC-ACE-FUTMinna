@@ -88,7 +88,7 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 
-[Sequential Retrieval & Quality Control using Galaxy PDF file](Modules/Sequence_Retrieval&Quality_Control-using_Galaxypdf.pdf)
+[Sequential Retrieval & Quality Control using Galaxy PDF file](Modules/Sequence_Retrieval&Quality_Control_using_Galaxy.pdf)
 
 **Variant Calling and Functional Annotation**
 

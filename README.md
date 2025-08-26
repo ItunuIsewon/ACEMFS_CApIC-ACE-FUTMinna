@@ -59,20 +59,21 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 [Introduction](Modules/Bioinformatics_Workshop_Introduction.pdf)
 
-**Sequence Retrieval & Quality Control (Galaxy)**
-
-[Sequential_Retrieval & Quality_Control-using_Galaxy](Modules/Sequence_Retrieval&Quality_Control-using_Galaxypdf.pdf)
-
 **Biological Databases and Resources**
 
 [Introduction to Biological Databases and Resources](Introduction_to_Biological_Databases_and_Resources.pdf)
 
 **Primer Design**
+
 [Primer Design](Modules/Primer_Design.pdf)
 
 **Protein Structure & Databases**
 
 [Introduction to Protein Structure & Databases](Introduction_to_Protein_Structure&Databases.pdf)
+
+**Sequence Retrieval & Quality Control (Galaxy)**
+
+[Sequential Retrieval & Quality Control using Galaxy](Modules/Sequence_Retrieval&Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
 **Practical - Introduction to R**

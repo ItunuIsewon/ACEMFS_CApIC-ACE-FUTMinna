@@ -10,7 +10,7 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 ******
 ## Trainer
-<img src="Images/Trainer.png" alt="Alt text" width="500">
+<img src="Images/Trainer.png" alt="Alt text" width="300">
 
 ## Teaching Assistants
 <img src="Images/Teaching Assts.png" alt="Alt text" width="800">

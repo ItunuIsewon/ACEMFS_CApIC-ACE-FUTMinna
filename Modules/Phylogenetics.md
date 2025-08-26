@@ -8,8 +8,8 @@ You have been provided with a fasta file called **Aspergillus18S.fasta** and **Y
 
 ### 📥 **Dataset:** Download the file for Aspergillus18S [here](https://drive.google.com/file/d/198xN18mfp4nXMt5clEkke5q0jDkK3U5X/view?usp=sharing)
 
-Download the file for Yeast18S.fasta [here](https://drive.google.com/file/d/1sHnZbJOcKqs4mpDHCKBxPkUNNkF8-zLF/view?usp=drive_link)
-**
+### Download the file for Yeast18S.fasta [here](https://drive.google.com/file/d/1sHnZbJOcKqs4mpDHCKBxPkUNNkF8-zLF/view?usp=drive_link)
+
 **Step 1: Import sequences into MEGA **
 
 1. Launch MEGA X. 

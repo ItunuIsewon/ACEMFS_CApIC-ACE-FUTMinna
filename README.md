@@ -66,11 +66,11 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 ## Day 2
 **Practical - Introduction to R**
 
-[Introduction to R](Modules/Introduction to R.md)
+[Introduction to R](Modules/Introduction_to_R.md)
 
 **Practical - Differential Expression Analysis**
 
-[Differential Expression Analysis](Modules/Differential Expression Analysis.md)
+[Differential Expression Analysis](Modules/Differential_Expression_Analysis.md)
 
 **Practical - Phylogenetics**
 

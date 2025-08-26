@@ -61,7 +61,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 
-[Sequential_Retrieval&Quality_Control-using_Galaxy](Modules/Sequence_Retrieval_Quality_Control-using_Galaxypdf.pdf)
+[Sequential_Retrieval & Quality_Control-using_Galaxy](Modules/Sequence_Retrieval_Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
 **Practical - Introduction to R**

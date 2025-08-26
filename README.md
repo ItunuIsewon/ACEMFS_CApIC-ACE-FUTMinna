@@ -66,9 +66,10 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 [Differential Expression Analysis](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Differential%20Expression%20Analysis.md)
 
-**Phylogenetics**
+**Practical - Phylogenetics**
 
-[Phylogenetics](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics_Guide.pdf)
+[Phylogenetics](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics.md)
+
 
 ******
 ## License

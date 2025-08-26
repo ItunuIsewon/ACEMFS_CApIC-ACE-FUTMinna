@@ -80,6 +80,8 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 [Variant Calling](Modules/variant_calling.md)
 
+[Galaxy Material](Modules/galaxy_material.pdf)
+
 ## Day 2
 
 **Practical - Introduction to R**

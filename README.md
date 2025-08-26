@@ -118,6 +118,9 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 [Introduction to Protein Structure & Databases](Modules/Introduction_to_Protein_Structure&Databases.pdf)
 
+**Ligand Preparation and Protein-Ligand Binding**
+
+[Ligand Preparation and Protein-Ligand Binding pdf file]
 
 ******
 ## License

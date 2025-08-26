@@ -10,7 +10,7 @@ You have been provided with a fasta file called **Aspergillus18S.fasta** and **Y
 
 ### Download the file for Yeast18S.fasta [here](https://drive.google.com/file/d/1sHnZbJOcKqs4mpDHCKBxPkUNNkF8-zLF/view?usp=drive_link)
 
-**Step 1: Import sequences into MEGA **
+**Step 1: Import sequences into MEGA**
 
 1. Launch MEGA X. 
 2. File → Open a File/Session… → select Aspergillus18S.fasta. 
@@ -23,7 +23,7 @@ In Alignment Explorer:
 1. Align → Align by ClustalW . 
 2. Click Options and set/confirm the parameters below, then Compute. 
 
-Click [here] () for the Phylogenetics pdf file 
+Click [here](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics_Guide.pdf) for the Phylogenetics pdf file 
  
 After alignment: 
 • Scroll through; 18S has conserved stems and variable loops—expect gaps mostly in variable regions. 
@@ -32,27 +32,33 @@ After alignment:
 Save the alignment: Data → Export Alignment → MEGA format (.meg) and also FASTA 
 for records. 
  
-**Step 3 — Build a Neighbor-Joining (NJ) tree **
+**Step 3 — Build a Neighbor-Joining (NJ) tree**
+
 1. Close Alignment Explorer (save when prompted). 
 2. In the main MEGA window, choose Phylogeny → Construct/Test Neighbor
 Joining Tree. 
-3. In Analysis Preferences (the panel like your screenshot), set: 
-Analysis 
+3. In Analysis Preferences (the panel like your screenshot), set:
+   
+**Analysis**
 • Scope → All Selected Taxa (or choose a subset beforehand). 
 • Statistical Method → Neighbor-joining. 
-Phylogeny Test (support) 
+
+**Phylogeny Test (support)**
+
 • Test of Phylogeny → Bootstrap method. 
 • No. of Bootstrap Replications → 1000. 
 Rule of thumb: ≥70% = moderate support, ≥90% = strong. 
-Substitution Model (Distances) 
+
+**Substitution Model (Distances)**
+
 • Substitutions Type → Nucleotide. 
 • Model/Method → Maximum Composite Likelihood (MCL). 
 Alternatives: Tamura-Nei (TN93) or Kimura 2-parameter (K2P); try these if you 
 want sensitivity analysis. 
-• Substitutions to Include → d: Transitions + Transversions (include both). 
-Rates and Patterns 
-• Rates among Sites → Uniform Rates (appropriate for conserved 18S). 
-If analyzing more variable loci (e.g., ITS), consider Gamma Distributed; MEGA will 
+• Substitutions to Include → d: Transitions + Transversions (include both).
+
+**Rates and Patterns**
+• Rates among Sites → Uniform Rates (appropriate for conserved 18S). If analyzing more variable loci (e.g., ITS), consider Gamma Distributed; MEGA will 
 estimate the shape (α). 
 • Pattern among Lineages → Same (Homogeneous). 
 Data Subset to Use 
@@ -61,9 +67,9 @@ localized gaps).
 Complete deletion is stricter but can remove lots of signal. 
 • Select Codon Positions → Tick Noncoding Sites (coding positions have no effect 
 for 18S). 
-4. Click Compute to infer the NJ tree.
+5. Click Compute to infer the NJ tree.
    
-**Step 4 — Inspect, root, and annotate **
+**Step 4 — Inspect, root, and annotate**
 
 • Rooting: If your file contains a clear outgroup (e.g., a non-Aspergillus fungus), Tree 
 Explorer → Tree → Root on that taxon. If not, use Midpoint rooting. 
@@ -74,7 +80,7 @@ accession+species, which is perfect.
 • Collapse weak nodes: Optionally collapse branches with support <50–70% to 
 simplify. 
 
-**Step 5 — Export & document **
+**Step 5 — Export & document**
 
 • File → Export Current Tree (Newick) → Aspergillus18S_NJ.nwk. 
 • Image export: File → Export Image (PNG/PDF/SVG) at 300–600 dpi. 

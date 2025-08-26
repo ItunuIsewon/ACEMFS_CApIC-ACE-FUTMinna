@@ -65,7 +65,7 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 
 **Biological Databases and Resources**
 
-[Introduction to_Biological Databases and Resources](Introduction_to_Biological_Databases_and_Resources.pdf)
+[Introduction to Biological Databases and Resources](Introduction_to_Biological_Databases_and_Resources.pdf)
 
 **Protein Structure & Databases**
 

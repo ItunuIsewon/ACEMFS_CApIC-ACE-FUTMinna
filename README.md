@@ -4,7 +4,8 @@
 
 <img src="Images/Logos.png" alt="Alt text" width="500">
 
-The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was stablished in 2019, through Africa Center of Ecellence Award, and co-sponsored by the Association of African Universities, the world bank, AFD and supported by the National Universities Commission of Nigeria. The main objective of the center is to produce a skilled workforce with quality training in the use of modern functional equipment and innovative research to assess the impacts of food pathogens and toxic chemical residues on the health and economy of the West and Central African sub-region. ACEMFS thus aims to contribute to the effective prevention and control of food poisoning, which can guide policy formulation throughout the African region. The center has expertise in parasitology, mycotoxicology, food science and nutrition.
+The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was stablished in 2019, through Africa Center of Ecellence Award, and co-sponsored by the Association of African Universities, the world bank, AFD and supported by the National Universities Commission of Nigeria. The main objective of the center is to produce a skilled workforce with quality training in the use of modern functional equipment and innovative research to assess the impacts of food pathogens and toxic chemical residues on the health and economy of the West and Central African sub-region. 
+ACEMFS thus aims to contribute to the effective prevention and control of food poisoning, which can guide policy formulation throughout the African region. The center has expertise in parasitology, mycotoxicology, food science and nutrition.
 
 ******
 ## Trainer

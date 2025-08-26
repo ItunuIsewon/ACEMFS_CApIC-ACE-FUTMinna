@@ -1,15 +1,13 @@
----
-title: "RNA-seq Analysis of GSE179477 with DESeq2"
-author: "Dr Itunu I.M"
-email: "itunu.isewon@covenantuniversity.edu.ng"
-date: "`r Sys.Date()`"
-output: html_document
----
+# Differential Expression Analysis
+## Author: Dr Itunu I.M
 
-# Introduction
+### 📥 **Dataset:** RNA-seq Analysis of GSE179477 with DESeq2
+Download the file [here](https://drive.google.com/file/d/19BcWcMqddtN9YdMqGONyyHJgcvF8LUQw/view?usp=drive_link).
+
+### Introduction
 
 In this tutorial, we will perform a **differential expression analysis** on RNA-seq data from the dataset **GSE179477**.  
-Download the file [here](https://drive.google.com/file/d/19BcWcMqddtN9YdMqGONyyHJgcvF8LUQw/view?usp=drive_link)
+Download the file [here](https://drive.google.com/file/d/19BcWcMqddtN9YdMqGONyyHJgcvF8LUQw/view?usp=drive_link).
 We will use the **DESeq2** package, which is widely used for RNA-seq analysis because it models count data using the negative binomial distribution.  
 
 The goal is to demonstrate key steps:  
@@ -20,7 +18,7 @@ The goal is to demonstrate key steps:
 
 ---
 
-# Step 1: Load Libraries
+### Step 1: Load Libraries
 
 We start by loading the libraries required for RNA-seq analysis.  
 
@@ -33,7 +31,7 @@ library(dplyr)        # Data wrangling
 
 ```
 
-Step 2: Load the Data
+### Step 2: Load the Data
 
 We will use the read count matrix file: GSE179477_readcount.csv.
 
@@ -51,9 +49,9 @@ head(counts)
 dim(counts)   # number of genes x samples
 
 ```
-Explanation: RNA-seq starts with raw counts. These must be normalized before comparisons across conditions.
+👉 **Explanation**: RNA-seq starts with raw counts. These must be normalized before comparisons across conditions.
 
-Step 3: Create Metadata (Sample Information)
+### Step 3: Create Metadata (Sample Information)
 
 DESeq2 needs sample metadata describing the experimental conditions.
 You should create a dataframe that matches samples to conditions (e.g., control vs treatment).
@@ -67,9 +65,9 @@ sample_info <- data.frame(
 sample_info
 
 ```
-Explanation: Each sample must have a label that tells DESeq2 which group it belongs to.
+👉 **Explanation:** Each sample must have a label that tells DESeq2 which group it belongs to.
 
-Step 4: Create DESeq2 Dataset
+### Step 4: Create DESeq2 Dataset
 
 We combine the count matrix and sample information into a DESeqDataSet.
 ```{r}
@@ -81,9 +79,9 @@ dds <- DESeqDataSetFromMatrix(
 
 dds
 ```
-👉 Explanation: The design formula specifies the variables to test. Here we compare Treatment vs Control.
+👉 **Explanation**: The design formula specifies the variables to test. Here we compare Treatment vs Control.
 
-Step 5: Pre-Filtering Low Count Genes
+### Step 5: Pre-Filtering Low Count Genes
 
 Genes with very low counts in all samples are not informative. We filter them out.
 
@@ -91,9 +89,9 @@ Genes with very low counts in all samples are not informative. We filter them ou
 dds <- dds[rowSums(counts(dds)) > 10, ]
 dds
 ```
-👉 Explanation: Removing low-count genes reduces noise and improves statistical power.
+👉 **Explanation:** Removing low-count genes reduces noise and improves statistical power.
 
-Step 6: Run Differential Expression Analysis
+### Step 6: Run Differential Expression Analysis
 
 We now run the DESeq2 pipeline.
 ```{r}
@@ -103,7 +101,7 @@ dds <- DESeq(dds)
 res <- results(dds, contrast = c("condition","Treatment","Control"))
 head(res)
 ```
-👉 Explanation: DESeq2 fits a negative binomial model and tests for differences between groups.
+👉 **Explanation**: DESeq2 fits a negative binomial model and tests for differences between groups.
 contrast specifies the comparison: Treatment vs Control.
 
 Columns in DESeq2 Results
@@ -152,9 +150,9 @@ This is the most reliable measure to decide significance.
 
 A common cutoff: padj < 0.05 → significant differentially expressed gene.
 
-Example:
+**Example:**
 
-| Gene  | baseMean | log2FoldChange | lfcSE | stat  | pvalue  | padj    |
+| **Gene ** | **baseMean** | **log2FoldChange** |** lfcSE** | **stat ** | **pvalue ** | **padj**|
 | ----- | -------- | -------------- | ----- | ----- | ------- | ------- |
 | GeneA | 150.3    | 2.1            | 0.4   | 5.25  | 1.2e-07 | 3.5e-04 |
 | GeneB | 75.8     | -1.3           | 0.6   | -2.16 | 0.031   | 0.12    |
@@ -163,7 +161,7 @@ GeneA: Highly expressed, significantly upregulated (log₂FC=2.1, padj < 0.05).
 
 GeneB: Downregulated (log₂FC=-1.3), but not significant after correction (padj=0.12).
 
-Step 7: Data Visualization
+### Step 7: Data Visualization
 MA Plot
 
 Shows the relationship between gene expression (mean counts) and fold change.
@@ -258,12 +256,13 @@ mat <- assay(vst(dds))[top_genes, ]
 pheatmap(mat, annotation_col = sample_info, scale="row",
          main="Top 30 Differentially Expressed Genes")
 ```
-👉 Explanation: Heatmaps show clustering of samples and expression patterns of significant genes.
+👉 **Explanation:** Heatmaps show clustering of samples and expression patterns of significant genes.
 
-Step 8: Save Results
+### Step 8: Save Results
 
 Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+
 

@@ -58,15 +58,18 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 [Sequential_Retrieval&Quality_Control-using_Galaxy](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Sequence_Retrieval%26Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
-### Practical - Introduction to R
+**Practical - Introduction to R**
 
 [Introduction to R](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Introduction%20to%20R.md)
 
-### Practical - Differential Expression Analysis
-
+**Practical - Differential Expression Analysis**
 [Differential Expression Analysis](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Differential%20Expression%20Analysis.md)
 
-### Phylogenetics
+**Phylogenetics**
 
 [Phylogenetics](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Phylogenetics_Guide.pdf)
+
+******
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
 

@@ -1,11 +1,13 @@
----
-title: "Biostatistics and Data Interpretation in R for Mycotoxicology"
-author: "Dr Itunu I.M"
-email: "itunu.isewon@covenantuniversity.edu.ng"
-date: "`r Sys.Date()`"
-output: html_document
----
-# Introduction
+# Introduction to R
+
+### Biostatistics and Data Interpretation in R for Mycotoxicology
+### Author: Dr Itunu I.M
+
+### 📥 **Dataset:** Download the file [here](https://drive.google.com/file/d/1umPgNdUgH6e023l441B4fFO-MNk29ZEt/view?usp=drive_link)
+
+Download the second file [here](https://drive.google.com/file/d/1vLykOWzcUNRORkfmQvFEXOI3-ouWMaXz/view?usp=drive_link)
+
+### Introduction
 
 Welcome to the workshop on **Biostatistics and Data Interpretation in R** with applications in **Mycotoxicology**. This training will guide participants from the basics of R programming to the application of statistical techniques and visualization methods in analyzing biological data related to mycotoxins.
 
@@ -45,7 +47,7 @@ In R, a vector is the most basic data structure — it is simply a sequence of e
 
 ---
 
-# Loading and Cleaning Biological Data in R
+### Loading and Cleaning Biological Data in R
 
 ```{r}
 # Load necessary libraries
@@ -92,7 +94,7 @@ myco_clean <- myco_clean %>%
 
 ---
 
-# Basic Statistical Tests
+### Basic Statistical Tests
 
 ### T-test: Comparing Aflatoxin levels in two food groups
 
@@ -103,7 +105,7 @@ rice  <- subset(myco_clean, Crop == "Rice")$AFB1
 t.test(maize, rice)
 
 ```
-🔎 Interpretation of Results
+🔎 **Interpretation of Results**
 
 Groups compared
 
@@ -160,7 +162,7 @@ Mean Sq = 442.9 → Average variation per group.
 F value = 61.61 → Very large F statistic → strong evidence of differences.
 
 Pr(>F) = 5.84e-08 → This is essentially 0.0000000584, way below 0.05.
-✅ Conclusion: Highly significant difference between at least one pair of groups.
+✅ **Conclusion**: Highly significant difference between at least one pair of groups.
 
 Residuals
 
@@ -183,7 +185,7 @@ summary(anova_model)
 
 ---
 
-# Data Visualization in Mycotoxicology
+### Data Visualization in Mycotoxicology
 
 ### Boxplots of Mycotoxin Levels
 📊 What is a Box Plot?
@@ -251,17 +253,17 @@ Decide on statistical methods
 
 Many tests assume normal distribution; histograms help check assumptions.
 
-✅ Why use Histograms?
+✅ **Why use Histograms?**
 
-Quick insight: They let you see if most values fall in a certain range.
+**Quick insight:** They let you see if most values fall in a certain range.
 
-Exploratory data analysis (EDA): Often the very first step when examining new data.
+**Exploratory data analysis (EDA):** Often the very first step when examining new data.
 
-Quality control: Useful in fields like manufacturing or labs to monitor measurements.
+**Quality control:** Useful in fields like manufacturing or labs to monitor measurements.
 
-Risk assessment: In toxicology/mycotoxicology, histograms help reveal if contamination is concentrated in a few samples or spread widely.
+**Risk assessment:** In toxicology/mycotoxicology, histograms help reveal if contamination is concentrated in a few samples or spread widely.
 
-🌍 Context Examples - Mycotoxicology
+🌍** Context Examples - Mycotoxicology**
 
 Plot a histogram of AFB1 concentrations across all maize samples.
 
@@ -294,7 +296,7 @@ It helps reveal the shape of the distribution (e.g., bell-shaped, skewed, multim
 
 Think of it as a way to see the “outline” of the histogram without the jagged bins.
 
-🔎 When to Use a Density Plot
+🔎 **When to Use a Density Plot**
 
 When you want to focus on the distribution shape rather than exact counts.
 
@@ -328,7 +330,7 @@ It is based on the correlation coefficient (r), which ranges from −1 to +1:
 
 The heatmap displays these correlations as a colored grid, where colors represent the magnitude and direction of correlation.
 
-🔎 When & Why to Use a Correlation Heatmap
+🔎 **When & Why to Use a Correlation Heatmap**
 
 ✅ To quickly identify relationships between variables (e.g., toxins measured in food samples).
 ✅ To detect multicollinearity before building statistical or machine learning models.
@@ -340,8 +342,8 @@ library(corrplot)
 corr_matrix <- cor(myco_data[,2:4])
 corrplot(corr_matrix, method = "color", addCoef.col = "white")
 ```
-# Bar plot (mean per group)
-📊 What is a Bar Plot (Mean per Group)?
+### Bar plot (mean per group)
+📊 **What is a Bar Plot (Mean per Group)?**
 A bar plot is a chart that displays the mean (average) of a variable across different groups. Each bar represents the group’s average value.
 
 It shows:
@@ -350,7 +352,7 @@ Bars → the mean of each group.
 
 Categories → groups being compared (e.g., crops, regions, treatments).
 
-🔎 When & Why to Use Bar Plots (Mean per Group)
+🔎 **When & Why to Use Bar Plots (Mean per Group)**
 
 To compare average levels across groups (e.g., mean aflatoxin concentration in maize vs. groundnut).
 
@@ -360,7 +362,7 @@ Useful when raw data is noisy but group differences in means matter.
 
 Great for presentations where a clear group-level summary is needed.
 
-⚠️ Note: Unlike box plots, bar plots hide distribution details and outliers, so they are best when you only want to highlight group averages.
+⚠️** Note: **Unlike box plots, bar plots hide distribution details and outliers, so they are best when you only want to highlight group averages.
 ```{r}
 mean_data <- myco_clean %>%
   group_by(Crop) %>% summarise(mean_AFB1 = mean(AFB1), .groups="drop")
@@ -371,8 +373,8 @@ ggplot(mean_data, aes(Crop, mean_AFB1, fill=Crop)) +
   labs(title="Mean Aflatoxin B1 by Crop", y="AFB1 (µg/kg)")
 ```
 
-# Line plot (trend over time)
-📈 What is a Line Plot?
+### Line plot (trend over time)
+📈 **What is a Line Plot?**
 A line plot (or time series plot) is a way to visualize how a variable changes over time or across an ordered sequence.
 It connects individual data points with lines, making trends easier to see.
 
@@ -386,7 +388,7 @@ Lines → show upward or downward trends.
 
 Multiple lines → allow comparison across groups (e.g., different toxins, regions).
 
-🔎 When & Why to Use Line Plots
+🔎** When & Why to Use Line Plots**
 
 To observe trends (increasing, decreasing, stable) over time.
 
@@ -407,8 +409,8 @@ ggplot(time_data, aes(Month, AFB1)) +
   labs(title="AFB1 Increase During Storage", y="AFB1 (µg/kg)")
 ```
 
-#Violin plot (distribution + density)
-🎻 What is a Violin Plot?
+### Violin plot (distribution + density)
+🎻 **What is a Violin Plot?**
 A violin plot combines features of a box plot and a density plot:
 
 Like a box plot, it shows median, quartiles, and range.
@@ -417,7 +419,7 @@ Like a density plot, it shows the distribution shape (wider sections = more freq
 
 It looks like a “mirrored” density plot around a central line, resembling a violin 🎻.
 
-🔎 When & Why to Use Violin Plots
+🔎 **When & Why to Use Violin Plots**
 
 To compare the distribution of a variable across groups.
 
@@ -437,8 +439,8 @@ ggplot(myco_clean, aes(Region, AFB1, fill=Region)) +
   geom_boxplot(width=.12, fill="white") +
   labs(title="Distribution of AFB1 by Crop", y="AFB1 (µg/kg)")
 ```
-#Density plot (smooth distribution)
-📊 What is a Density Plot?
+### Density plot (smooth distribution)
+📊 **What is a Density Plot?**
 A density plot is a smooth curve that estimates the probability distribution of a dataset.
 It is essentially a smoothed version of a histogram, using kernel density estimation (KDE).
 
@@ -450,7 +452,7 @@ Peaks (modes) where data are concentrated.
 
 The spread of the data across values.
 
-🔎 When & Why to Use Density Plots
+🔎 **When & Why to Use Density Plots**
 
 To visualize the underlying distribution of continuous data.
 
@@ -468,8 +470,8 @@ ggplot(myco_clean, aes(AFB1, fill=Crop)) +
   labs(title="Density of AFB1 by Crop", x="AFB1 (µg/kg)")
 ```
 
-# Stacked bar (proportions by category)
-📊 What is a Stacked Bar Plot?
+### Stacked bar (proportions by category)
+📊 **What is a Stacked Bar Plot?**
 A stacked bar plot shows the composition of categories within groups by stacking segments on top of each other.
 Instead of showing only totals, it breaks them down into subgroups.
 
@@ -481,7 +483,7 @@ Subcategories → stacked colors (e.g., toxin types within each crop).
 
 Relative proportions → can be displayed as raw counts or percentages.
 
-🔎 When & Why to Use Stacked Bar Plots
+🔎 **When & Why to Use Stacked Bar Plots**
 ✔ To visualize composition of groups (e.g., toxin types per crop).
 ✔ To compare proportions across categories.
 ✔ To see distribution trends across groups.
@@ -500,9 +502,8 @@ ggplot(cats, aes(Crop, n, fill=Category)) +
 
 
 
-# Boxplot + jitter (summary + raw points)
-📦 What is a Boxplot + Jitter?
-
+### Boxplot + jitter (summary + raw points)
+📦 **What is a Boxplot + Jitter?**
 A boxplot summarizes the distribution of a dataset:
 
 The box shows the interquartile range (IQR = 25th–75th percentile).
@@ -517,7 +518,7 @@ Jittered points overlay the raw data, showing the spread of individual observati
 
 This helps avoid overplotting by spreading out points horizontally.
 
-🔎 When & Why to Use
+🔎 **When & Why to Use**
 
 To combine summary statistics (boxplot) with individual-level data (jitter).
 
@@ -535,9 +536,7 @@ ggplot(myco_clean, aes(Region, FB1, fill=Region)) +
   labs(title="FB1 by Region (with samples)", y="FB1 (µg/kg)")
 ```
 
-
-
-# 4.J Regional comparison (simple “geo” bar)
+### 4.J Regional comparison (simple “geo” bar)
 
 ```{r}
 region_mean <- myco_clean %>%
@@ -550,7 +549,7 @@ ggplot(region_mean, aes(Region, mean_AFB1, fill=Region)) +
 
 
 ### Principal Component Analysis (PCA)
-📊 What is PCA (Principal Component Analysis)?
+📊 **What is PCA (Principal Component Analysis)?**
 PCA is a dimensionality reduction technique that transforms a large set of correlated variables into a smaller set of uncorrelated components while preserving as much variation in the data as possible.
 
 Principal Components (PCs): New variables formed as linear combinations of the original variables.
@@ -561,7 +560,7 @@ PC2: Captures the second-largest variance, orthogonal to PC1.
 
 Usually, the first 2–3 PCs explain most of the structure in the data.
 
-🔎 When & Why to Use PCA?
+🔎 **When & Why to Use PCA?**
 
 To reduce dimensionality while keeping most of the information.
 
@@ -590,7 +589,7 @@ lines(cumsum(var_explained), type = "b", col = "red")
 
 ---
 
-# Conclusion
+### Conclusion
 
 This workshop introduced participants to:
 
@@ -600,4 +599,5 @@ This workshop introduced participants to:
 - Visualization techniques (boxplots, histograms, scatterplots, density plots, correlation heatmaps, PCA)  
 
 These tools provide a foundation for analyzing complex datasets in **mycotoxicology research**, such as understanding contamination levels, testing for differences across food groups, and exploring multivariate data structures.
+
 

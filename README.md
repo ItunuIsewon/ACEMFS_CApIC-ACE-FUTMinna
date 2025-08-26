@@ -64,9 +64,11 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 [Sequential_Retrieval & Quality_Control-using_Galaxy](Modules/Sequence_Retrieval_Quality_Control-using_Galaxypdf.pdf)
 
 **Biological Databases and Resources**
+
 [Introduction to_Biological Databases and Resources](Introduction_to_Biological_Databases_and_Resources.pdf)
 
 **Protein Structure & Databases**
+
 [Introduction to Protein Structure & Databases](Introduction_to_Protein_Structure&Databases.pdf)
 
 ## Day 2

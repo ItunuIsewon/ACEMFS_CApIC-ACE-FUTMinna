@@ -154,8 +154,8 @@ A common cutoff: padj < 0.05 → significant differentially expressed gene.
 
 |**Gene**|**baseMean**|**log2FoldChange**|**lfcSE** |**stat**|**pvalue**|**padj**|
 | ----- | -------- | -------------- | ----- | ----- | ------- | ------- |
-| GeneA | 150.3    | 2.1            | 0.4   | 5.25  | 1.2e-07 | 3.5e-04 |
-| GeneB | 75.8     | -1.3           | 0.6   | -2.16 | 0.031   | 0.12    |
+|**GeneA**| 150.3    | 2.1            | 0.4   | 5.25  | 1.2e-07 | 3.5e-04 |
+|**GeneB**| 75.8     | -1.3           | 0.6   | -2.16 | 0.031   | 0.12    |
 
 GeneA: Highly expressed, significantly upregulated (log₂FC=2.1, padj < 0.05).
 
@@ -264,6 +264,7 @@ Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+
 
 
 

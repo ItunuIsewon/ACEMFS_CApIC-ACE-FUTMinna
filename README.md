@@ -63,7 +63,7 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 **Biological Databases and Resources**
 
-[Introduction to Biological Databases and Resources](Introduction_to_Biological_Databases_and_Resources.pdf)
+[Introduction to Biological Databases and Resources](Modules/Introduction_to_Biological_Databases_and_Resources.pdf)
 
 **Primer Design**
 
@@ -71,7 +71,7 @@ ACEMFS thus aims to contribute to the effective prevention and control of food p
 
 **Protein Structure & Databases**
 
-[Introduction to Protein Structure & Databases](Introduction_to_Protein_Structure&Databases.pdf)
+[Introduction to Protein Structure & Databases](Modules/Introduction_to_Protein_Structure&Databases.pdf)
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 

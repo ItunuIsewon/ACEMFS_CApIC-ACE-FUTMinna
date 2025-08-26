@@ -1,5 +1,5 @@
 # Differential Expression Analysis
-## Author: Dr Itunu I.M
+## Author: Dr. Itunu I.M
 
 ### 📥 **Dataset:** RNA-seq Analysis of GSE179477 with DESeq2
 Download the file [here](https://drive.google.com/file/d/19BcWcMqddtN9YdMqGONyyHJgcvF8LUQw/view?usp=drive_link).
@@ -264,6 +264,7 @@ Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+
 
 
 

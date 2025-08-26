@@ -2,7 +2,7 @@
 
 ### Author: Dr. Itunuoluwa Isewon
 
-### Email: itunu.isewon@covenantuniversity.edu.ng 
+**Email: itunu.isewon@covenantuniversity.edu.ng**
 
 You have been provided with a fasta file called **Aspergillus18S.fasta** and **Yeast18S.fasta**
 

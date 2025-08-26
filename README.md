@@ -94,7 +94,7 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 [Variant Calling](Modules/variant_calling.md)
 
-[Galaxy PDF file](Modules/galaxy_material.pdf)
+[Variant Calling PDF file](Modules/variant_calling.pdf)
 
 ## Day 2
 

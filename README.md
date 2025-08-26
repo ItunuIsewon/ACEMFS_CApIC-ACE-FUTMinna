@@ -58,10 +58,9 @@ The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was s
 [Sequential_Retrieval&Quality_Control-using_Galaxy](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Sequence_Retrieval%26Quality_Control-using_Galaxypdf.pdf)
 
 ## Day 2
-### Dataset file
-[Mycotoxin data](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Dataset/mycotoxin_data.csv)
+### Practical - Introduction to R
 
-[Mycotoxin data2](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Dataset/mycotoxin_data2.csv)
+[Introduction to R](https://github.com/ItunuIsewon/ACEMFS_FUTMinna_Bioinformatics_Workshop/blob/main/Modules/Introduction%20to%20R.md)
 
 ### Practical - Differential Expression Analysis
 

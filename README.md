@@ -80,11 +80,11 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 **Biological Databases and Resources**
 
-[Introduction to Biological Databases and Resources](Modules/Introduction_to_Biological_Databases_and_Resources.pdf)
+[Introduction to Biological Databases and Resources PDF file](Modules/Introduction_to_Biological_Databases_and_Resources.pdf)
 
 **Primer Design for Gene Targeting**
 
-[Primer Design](Modules/Primer_Design.pdf)
+[Primer Design PDF file](Modules/Primer_Design.pdf)
 
 **Sequence Retrieval & Quality Control (Galaxy)**
 
@@ -110,17 +110,17 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 [Phylogenetics](Modules/Phylogenetics.md)
 
-[Phylogenetics Guide pdf](Modules/Phylogenetics_Guide.pdf)
+[Phylogenetics Guide PDF file](Modules/Phylogenetics_Guide.pdf)
 
 ## Day 3
 
 **Protein Structure & Databases**
 
-[Introduction to Protein Structure & Databases](Modules/Introduction_to_Protein_Structure&Databases.pdf)
+[Introduction to Protein Structure & Databases PDF file](Modules/Introduction_to_Protein_Structure&Databases.pdf)
 
 **Ligand Preparation and Protein-Ligand Binding**
 
-[Ligand Preparation and Protein-Ligand Binding pdf file]
+[Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)
 
 ******
 ## License

@@ -1,8 +1,10 @@
-# ACEMFS FUT Minna Bioinformatics Workshop
+# ACEMFS CApIC-ACE Bioinformatics Workshop, FUT Minna
 
-# Workshop Title: Bioinformatics Training
+# Workshop Title: Introduction to Bioinformatics
 
 <img src="Images/Logos.png" alt="Alt text" width="500">
+
+The 
 
 The **African Center of Ecellence for Mycotoins and Food Safety (ACEMFS)** was stablished in 2019, through Africa Center of Ecellence Award, and co-sponsored by the Association of African Universities, the world bank, AFD and supported by the National Universities Commission of Nigeria. The main objective of the center is to produce a skilled workforce with quality training in the use of modern functional equipment and innovative research to assess the impacts of food pathogens and toxic chemical residues on the health and economy of the West and Central African sub-region. 
 

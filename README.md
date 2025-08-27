@@ -66,10 +66,9 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 |:---:|:---:|:---:|
 9:00 AM - 9:30 AM| **Recap of day 1 and day 2 activities**| ----
 9:30 AM - 10:30 AM| **Introduction to Protein Structure & Databases**| Tools: RCSB PDB, UniProt, AlphaFold; Visualizers: PyMOL or ChimeraX
-10:30 AM - 11:00 AM| Break
-11:00 AM - 12:30 PM| **Ligand Preparation and Protein-Ligand Binding**| Tools: AutoDock Vina, Chimera; Dataset: Mycotoxin + fungal enzyme PDB structure
-12:30 PM - 1:30 PM| Lunch
-1:30 PM - 2:50 PM| **Mini - Project Implementation**
+10:30 AM - 12:00 PM| **Ligand Preparation and Protein-Ligand Binding**| Tools: AutoDock Vina, Chimera; Dataset: Mycotoxin + fungal enzyme PDB structure
+12:00 PM - 1:00 PM| Lunch
+1:00 PM - 2:50 PM| **Mini - Project Implementation**
 2:50 PM - 3:30 PM| **Presentation of Mini-Projects**
 3:30 PM - 4:00 PM| **Wrap-up: Tools Integration & Project Ideas**| Group discussion: Apply tools to participants' own datasets or design mini-projects
 4:00 PM - 4:30 PM| **Certificates & Feedback**| Evaluation, group photo

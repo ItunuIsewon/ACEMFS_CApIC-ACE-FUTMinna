@@ -27,9 +27,9 @@ Quality control
 
 **Perform QC:**
 
-1.	on the search bar, type fastqc
-2.	choose the desired fastq files (paired end) in the raw read tab.
-3.	leave all other tabs unchanged 
+1.	On the search bar, type **fastqc**
+2.	Choose the desired fastq files (paired end) in the raw read tab.
+3.	Leave all other tabs unchanged 
 4.	Once it runs, two files are generated, a raw data file and a Webpage file
 5.	View the result by clicking on the webpage file produced
 6.	Repeat for the second data and compare their results.
@@ -38,57 +38,60 @@ Quality control
 
 Why: it helps us to obtain a more intuitive comparison
 
-1.	on the search bar, type multiqc
-2.	On the “Which tool was used generate logs?” tab, choose Fastqc
-3.	Then click on “Insert FastQC output”
+1.	On the search bar, type **multiqc**
+2.	On the **“Which tool was used generate logs?”** tab, choose **Fastqc**
+3.	Then click on **“Insert FastQC output”**
 4.	Type of output is raw data
 5.	Add the raw data files generated earlier
 6.	Leave all other parameters at default
 7.	Run tool
 8.	View the result by clicking on the webpage file produced
 
-**Variant calling Mapping**
+### Variant calling
 
-1.	search for Map with BWA-MEM in the tool search bar, choose the options for longer reads
+**Mapping**
+
+1.	Search for **Map with BWA-MEM** in the tool search bar, choose the options for longer reads
 2.	We would be using a built-in genome
-3.	Choose Aspergillus flavus NRRL3357 as the reference genome
+3.	Choose **Aspergillus flavus NRRL3357** as the reference genome
 4.	Leave other parameters as default
    
 **Descriptive statistics**
-1.	search for Samtools flagstat in the tool search bar, choose the options for longer reads
-2.	select the file generated from the BWA-MEM and leave the output format as txt
-3.	run tool
-4.	view results
+
+1.	Search for **Samtools flagstat** in the tool search bar, choose the options for longer reads
+2.	Select the file generated from the BWA-MEM and leave the output format as txt
+3.	Run tool
+4.	View results
 
 **Generate genotype likelihoods**
 
-1.	search for bcftools mpileup in the tool search bar
-2.	we are using single Bam alignment input
-3.	select the file generated from the BWA-MEM 
-4.	Reference genome is Aspergillus flavus NRRL3357
+1.	Search for **bcftools mpileup** in the tool search bar
+2.	We are using single BAM alignment input
+3.	Select the file generated from the BWA-MEM 
+4.	Reference genome is **Aspergillus flavus NRRL3357**
 5.	Output format is uncompressed VCF
-6.	run tool
+6.	Run tool
    
 **Variant calling**
 
-1.	search for bcftools call in the tool search bar, choose the options for longer reads
-2.	select the file generated from the bcftools mpileup
-3.	leave all other parameters default
+1.	Search for **bcftools call** in the tool search bar, choose the options for longer reads
+2.	Select the file generated from the **bcftools mpileup**
+3.	Leave all other parameters default
 4.	Output format is uncompressed VCF
-5.	run tool
+5.	Run tool
 6.	View result
 	
 **Remove homologous variants and variants with missing phenotype**
 
-1.	search for Filter data on any column using simple expressions in the tool search bar
-2.	select the file generated from the bcftools call
-3.	supply the condition c10 != ‘0/0’ : sample genotype information are on the tenth column, != means not equal to, ‘0/0’ represents homologous variants (portions of the genome not different from the refence)
-4.	run tool
+1.	Search for **Filter data on any column using simple expressions** in the tool search bar
+2.	Select the file generated from the **bcftools call**
+3.	Supply the condition c10 != ‘0/0’ : sample genotype information are on the tenth column, != means not equal to, ‘0/0’ represents homologous variants (portions of the genome not different from the refence)
+4.	Run tool
 5.	View result
-6.	search for Filter data on any column using simple expressions in the tool search bar
-7.	select the file generated from the last step
-8.	supply the condition c10 != ‘./.’ : ‘./.’ denotes missing data
-9.	run tool
+6.	Search for **Filter data on any column using simple expressions** in the tool search bar
+7.	Select the file generated from the last step
+8.	Supply the condition c10 != ‘./.’ : ‘./.’ denotes missing data
+9.	Run tool
 10.	View result
 
 **Sorting**
@@ -119,3 +122,18 @@ Why: it helps us to obtain a more intuitive comparison
 
 In the meantime a list of Variants have  provided for you to use. Run each of these using the **“RUN VEP! For this line option”**.
 
+|AAIH03000093.1| 2709654| . | G | A | 3.02336|
+|AAIH03000170.1| 1814273| . | T | A | 3.02336|
+|AAIH03000282.1| 926657 | . | G | T | 3.02336|
+|AAIH03000072.1| 3023139| . | T | C | 3.02501|
+|AAIH03000170.1| 1417818| . | C | T | 3.02996|
+|AAIH03000103.1| 103700 | . | taaaaaaa | taaaaaaa| 3.03091|
+|AAIH03000103.1| 598760 | . | T | C | 3.03539|
+|AAIH03000235.1| 829594 | . | G | A | 3.04327|
+|AAIH03000072.1| 2160575| . | A | C | 3.04541|
+|AAIH03000226.1| 603606 | . | T | A | 3.05565|
+|AAIH03000226.1| 3304340| . | T | A | 3.06291|
+|AAIH03000011.1| 401846 | . | G | A | 3.07192|
+|AAIH03000072.1| 4101557| . | T | C | 3.03091|
+|AAIH03000173.1| 1293019| . | tc| t | 3.07736|
+|AAIH03000072.1| 3410716| . | C | T | 3.08215|

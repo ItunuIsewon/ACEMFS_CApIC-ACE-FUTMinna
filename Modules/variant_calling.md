@@ -6,9 +6,9 @@
 
 📥 **Dataset:** Download the file [here](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing), then import history accordingly (change history name to ACEMFS _your_name)
 
-You have been provided with a text file which contains six sample ID, upload by clicking on the upload button and drop the file.
-
 ### Quality control
+
+N.B.: Skip “Obtain Fastq files” if you click the [dataset link](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing)
 
 **Obtain Fastq files:**
 

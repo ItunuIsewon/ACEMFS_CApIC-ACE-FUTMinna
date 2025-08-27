@@ -31,6 +31,11 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 
 ******
+
+## Pre- Workshop Instruction
+
+All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnjAUv79)
+
 ## Workshop Overview
 ### Workshop Timetable
 
@@ -121,6 +126,12 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 **Ligand Preparation and Protein-Ligand Binding**
 
 [Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)
+
+
+## Post- Workshop Instruction
+
+All participants are required to fill this [form](https://forms.gle/QSbfenP4kqxLUgfbA) at the end of the training.
+
 
 ******
 ## License

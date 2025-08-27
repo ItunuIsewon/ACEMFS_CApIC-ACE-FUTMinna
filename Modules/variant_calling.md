@@ -122,6 +122,8 @@ Why: it helps us to obtain a more intuitive comparison
 
 In the meantime a list of Variants have  provided for you to use. Run each of these using the **“RUN VEP! For this line option”**.
 
+
+|**Sample**|	|	|	| 	|	|
 |---|---|---|---|---|---|
 |AAIH03000093.1| 2709654| . | G | A | 3.02336|
 |AAIH03000170.1| 1814273| . | T | A | 3.02336|

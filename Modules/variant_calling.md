@@ -4,16 +4,17 @@
 
 **Email: itunu.isewon@covenantuniversity.edu.ng**
 
-📥 **Dataset:** Download the file [here](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing)
+📥 **Dataset:** Download the file [here](https://drive.google.com/file/d/1c76DZ7CuSO4cydkB7lpEBrNCuuC1JLVT/view?usp=sharing), then import history accordingly (change history name to ACEMFS _your_name)
 
 You have been provided with a text file which contains six sample ID, upload by clicking on the upload button and drop the file.
-Quality control
+
+### Quality control
 
 **Obtain Fastq files:**
 
-1.	In the tool Bar, click on Get Data
-2.	choose “Download and Extract Reads in FASTA/Q format from NCBI SRA”
-3.	Change the select input type to “List of SRA accession, then chose your sample id file and run tool
+1.	In the tool Bar, click on **Get Data**
+2.	Choose **“Download and Extract Reads in FASTA/Q format from NCBI SRA”**
+3.	Change the select input type to **“List of SRA accession"**, then chose your sample id file and run tool
 4.	In this tutorial we’ll use six datasets.
 
 |**Sample**| **Condition**|

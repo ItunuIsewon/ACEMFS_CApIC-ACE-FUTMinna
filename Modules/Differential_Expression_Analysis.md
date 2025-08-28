@@ -1,4 +1,5 @@
 # Differential Expression Analysis
+
 ## Author: Dr. Itunu I.M
 
 ### 📥 **Dataset:** RNA-seq Analysis of GSE179477 with DESeq2
@@ -104,15 +105,15 @@ head(res)
 👉 **Explanation**: DESeq2 fits a negative binomial model and tests for differences between groups.
 contrast specifies the comparison: Treatment vs Control.
 
-Columns in DESeq2 Results
+**Columns in DESeq2 Results**
 
-baseMean
+**baseMean**
 
 The average normalized expression of a gene across all samples (both conditions/groups).
 
 A higher value means the gene is overall more highly expressed in the dataset.
 
-log2FoldChange (log₂FC)
+**log2FoldChange (log₂FC)**
 
 The log₂ of the fold change between two groups (e.g., Treatment vs. Control).
 
@@ -120,7 +121,7 @@ Positive values → gene is upregulated in the treatment group.
 
 Negative values → gene is downregulated in the treatment group.
 
-Example: log₂FC = 1 → expression doubled; log₂FC = -1 → expression halved.
+**Example:** log₂FC = 1 → expression doubled; log₂FC = -1 → expression halved.
 
 lfcSE (log fold change Standard Error)
 
@@ -128,13 +129,13 @@ The standard error of the estimated log₂ fold change.
 
 Smaller values mean more confidence in the fold change estimate.
 
-stat
+**stat**
 
 The test statistic used for hypothesis testing (usually a Wald statistic in DESeq2).
 
 Larger absolute values indicate stronger evidence for differential expression.
 
-pvalue
+**pvalue**
 
 The raw p-value from the statistical test.
 
@@ -148,7 +149,7 @@ The p-value adjusted for multiple testing using the Benjamini–Hochberg method 
 
 This is the most reliable measure to decide significance.
 
-A common cutoff: padj < 0.05 → significant differentially expressed gene.
+**A common cutoff:** padj < 0.05 → significant differentially expressed gene.
 
 **Example:**
 
@@ -264,6 +265,7 @@ Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+
 
 
 

@@ -51,7 +51,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 3:00 PM - 4:30 PM| **Variant Calling & Functional Annotation** | [Variant Calling PDF file](Modules/variant_calling.pdf)| Tool: Galaxy, SnpEff / SnpSift
 
 ### Day 2 Plan: Phylogeny, Biostatistics & Transcriptomics
-|**Time**|**Session**|**File link**| Details**|
+|**Time**|**Session**|**File link**| **Details**|
 |:---:|:---:|:---:|:---:|
 9:00 AM - 9:30 AM| **Recap of Day 1 Activities**
 9:30 AM - 10:30 AM| **Phylogenetics** | [Phylogenetics Guide PDF file](Modules/Phylogenetics_Guide.pdf)| Tool: Clustal Omega, MEGA

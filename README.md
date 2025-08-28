@@ -44,7 +44,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 |:---:|:---:|:---:|:---|
 9:00 AM - 9:30 AM| **Welcome & Overview**|  | Workshop objectives, introduction to bioinformatics, relevance to mycotoxin research
 9:30 AM - 10:30 AM| **Introduction to Biological Databases** | [Introduction PDF file](Modules/Bioinformatics_Workshop_Introduction.pdf)| NCBI, ENA, UniProt, PDB, Ensembl, KEGG - how to search, download, and interpret
-10:30 AM - 11:00 AM| Break | Break | Break
+10:30 AM - 11:00 AM| Break | Break |  Break
 11:00 AM - 12:30 AM| **Sequence Retrieval & Quality Control (Galaxy)**| [Sequential Retrieval & Quality Control using Galaxy PDF file](Modules/Sequence_Retrieval&Quality_Control_using_Galaxy.pdf) | Tool: FastQC; Dataset: Mycotoxin-related fungal genome from ENA
 12:30 PM - 1:30 PM| Lunch
 1:30 PM - 3:00 PM| **Primer Design for Gene Targeting** | [Primer Design PDF file](Modules/Primer_Design.pdf)| Tool: Primer3 (via Galaxy or Primer-BLAST); Task: Design primers for a conserved gene

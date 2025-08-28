@@ -40,44 +40,33 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 ### Workshop Timetable
 
 ### Day 1 Plan: Genomics & Sequence Analysis
-|**Time**|**Session**|**Details**|
-|:---:|:---:|:---:|
+|**Time**|**Session**|**File link**|**Details**|
+|:---:|:---:|:---:|:---|
 9:00 AM - 9:30 AM| **Welcome & Overview**| Workshop objectives, introduction to bioinformatics, relevance to mycotoxin research
-9:30 AM - 10:30 AM| **Introduction to Biological Databases**  
-[Introduction PDF file](Modules/Bioinformatics_Workshop_Introduction.pdf)| NCBI, ENA, UniProt, PDB, Ensembl, KEGG - how to search, download, and interpret
+9:30 AM - 10:30 AM| **Introduction to Biological Databases** | [Introduction PDF file](Modules/Bioinformatics_Workshop_Introduction.pdf)| NCBI, ENA, UniProt, PDB, Ensembl, KEGG - how to search, download, and interpret
 10:30 AM - 11:00 AM| Break
-11:00 AM - 12:30 AM| **Sequence Retrieval & Quality Control (Galaxy)**  
-[Sequential Retrieval & Quality Control using Galaxy PDF file](Modules/Sequence_Retrieval&Quality_Control_using_Galaxy.pdf)
-| Tool: FastQC; Dataset: Mycotoxin-related fungal genome from ENA
+11:00 AM - 12:30 AM| **Sequence Retrieval & Quality Control (Galaxy)**| [Sequential Retrieval & Quality Control using Galaxy PDF file](Modules/Sequence_Retrieval&Quality_Control_using_Galaxy.pdf) | Tool: FastQC; Dataset: Mycotoxin-related fungal genome from ENA
 12:30 PM - 1:30 PM| Lunch
-1:30 PM - 3:00 PM| **Primer Design for Gene Targeting**  
-[Primer Design PDF file](Modules/Primer_Design.pdf)| Tool: Primer3 (via Galaxy or Primer-BLAST); Task: Design primers for a conserved gene
-3:00 PM - 4:30 PM| **Variant Calling & Functional Annotation**  
-[Variant Calling PDF file](Modules/variant_calling.pdf)| Tool: Galaxy, SnpEff / SnpSift
+1:30 PM - 3:00 PM| **Primer Design for Gene Targeting** | [Primer Design PDF file](Modules/Primer_Design.pdf)| Tool: Primer3 (via Galaxy or Primer-BLAST); Task: Design primers for a conserved gene
+3:00 PM - 4:30 PM| **Variant Calling & Functional Annotation** | [Variant Calling PDF file](Modules/variant_calling.pdf)| Tool: Galaxy, SnpEff / SnpSift
 
 ### Day 2 Plan: Phylogeny, Biostatistics & Transcriptomics
 |**Time**|**Session**|**Details**|
 |:---:|:---:|:---:|
 9:00 AM - 9:30 AM| **Recap of Day 1 Activities**
-9:30 AM - 10:30 AM| **Phylogenetics**  
-[Phylogenetics Guide PDF file](Modules/Phylogenetics_Guide.pdf)
-|Tool: Clustal Omega, MEGA
+9:30 AM - 10:30 AM| **Phylogenetics**   | [Phylogenetics Guide PDF file](Modules/Phylogenetics_Guide.pdf)|Tool: Clustal Omega, MEGA
 10:30 AM - 11:00 AM| Break
-11:00 AM - 12:30 PM| **Biostatistics in R for Omics Data**| Tool: RStudio (cloud or local); Task: Volcano plots, boxplots, PCA
+11:00 AM - 12:30 PM| **Biostatistics in R for Omics Data**|    | Tool: RStudio (cloud or local); Task: Volcano plots, boxplots, PCA
 12:30 PM - 1:30 PM| Lunch
-1:30 PM - 3:00 PM| **Transcriptomic Data Analysis: RNA-Seq**| Tools: Galaxy RNA-Seq workflow - HISAT2, featureCounts
-3:00 PM - 4:30 PM| **Differential Expression Analysis in Galaxy**| Tool: DESeq2; Task: Fold change and volcano plots using example dataset
+1:30 PM - 3:00 PM| **Transcriptomic Data Analysis: RNA-Seq**|  | Tools: Galaxy RNA-Seq workflow - HISAT2, featureCounts
+3:00 PM - 4:30 PM| **Differential Expression Analysis in Galaxy**|   | Tool: DESeq2; Task: Fold change and volcano plots using example dataset
 
 ### Day 3 Plan: Structural Bioinformatics
 |**Time**|**Session**|**Details**|
 |:---:|:---:|:---:|
 9:00 AM - 9:30 AM| **Recap of day 1 and day 2 activities**| ----
-9:30 AM - 10:30 AM| **Introduction to Protein Structure & Databases**  
-[Introduction to Protein Structure & Databases PDF file](Modules/Introduction_to_Protein_Structure&Databases.pdf)
-| Tools: RCSB PDB, UniProt, AlphaFold; Visualizers: PyMOL or ChimeraX
-10:30 AM - 12:00 PM| **Ligand Preparation and Protein-Ligand Binding**  
-[Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)
-| Tools: AutoDock Vina, Chimera; Dataset: Mycotoxin + fungal enzyme PDB structure
+9:30 AM - 10:30 AM| **Introduction to Protein Structure & Databases** | [Introduction to Protein Structure & Databases PDF file](Modules/Introduction_to_Protein_Structure&Databases.pdf)| Tools: RCSB PDB, UniProt, AlphaFold; Visualizers: PyMOL or ChimeraX
+10:30 AM - 12:00 PM| **Ligand Preparation and Protein-Ligand Binding**| [Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)| Tools: AutoDock Vina, Chimera; Dataset: Mycotoxin + fungal enzyme PDB structure
 12:00 PM - 1:00 PM| Lunch
 1:00 PM - 2:50 PM| **Mini - Project Implementation**
 2:50 PM - 3:30 PM| **Presentation of Mini-Projects**

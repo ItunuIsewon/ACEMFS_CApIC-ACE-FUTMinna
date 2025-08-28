@@ -70,8 +70,8 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 12:00 PM - 1:00 PM| Lunch | Lunch | Lunch
 1:00 PM - 2:50 PM| **Mini - Project Implementation** | **Mini - Project Implementation**| **Mini - Project Implementation**
 2:50 PM - 3:30 PM| **Presentation of Mini-Projects** | **Presentation of Mini-Projects**| **Presentation of Mini-Projects**
-3:30 PM - 4:00 PM| **Wrap-up: Tools Integration & Project Ideas**| --- | Group discussion: Apply tools to participants' own datasets or design mini-projects
-4:00 PM - 4:30 PM| **Certificates & Feedback**| --- |Evaluation, group photo
+3:30 PM - 4:00 PM| **Wrap-up: Tools Integration & Project Ideas**| ---- | Group discussion: Apply tools to participants' own datasets or design mini-projects
+4:00 PM - 4:30 PM| **Certificates & Feedback**| ---- |Evaluation, group photo
 
 ******
 

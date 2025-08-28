@@ -126,6 +126,14 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 [Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)
 
+## Mini-projects
+
+### Group 1
+
+### Group 2
+
+### Group 3
+
 
 ## Post- Workshop Instruction
 

@@ -62,9 +62,9 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 3:00 PM - 4:30 PM| **Differential Expression Analysis in Galaxy**| ---- | Tool: DESeq2; Task: Fold change and volcano plots using example dataset
 
 ### Day 3 Plan: Structural Bioinformatics
-|**Time**|**Session**|**File link**| **Details** |
+|**Time**|**Session**|**File link**|**Details**|
 |:---:|:---:|:---:|:---:|
-9:00 AM - 9:30 AM| **Recap of day 1 and day 2 activities**| ---- | ----|
+9:00 AM - 9:30 AM| **Recap of day 1 and day 2 activities**| ---- | ---- 
 9:30 AM - 10:30 AM| **Introduction to Protein Structure & Databases** | [Introduction to Protein Structure & Databases PDF file](Modules/Introduction_to_Protein_Structure&Databases.pdf)| Tools: RCSB PDB, UniProt, AlphaFold; Visualizers: PyMOL or ChimeraX
 10:30 AM - 12:00 PM| **Ligand Preparation and Protein-Ligand Binding**| [Ligand Preparation and Protein-Ligand Binding PDF file](Modules/Ligand_Preparation_and_Protein-Ligand_Binding.pdf)| Tools: AutoDock Vina, Chimera; Dataset: Mycotoxin + fungal enzyme PDB structure
 12:00 PM - 1:00 PM| Lunch | Lunch | Lunch

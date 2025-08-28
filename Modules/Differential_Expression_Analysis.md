@@ -105,7 +105,7 @@ head(res)
 👉 **Explanation**: DESeq2 fits a negative binomial model and tests for differences between groups.
 contrast specifies the comparison: Treatment vs Control.
 
-**Columns in DESeq2 Results**
+### Columns in DESeq2 Results
 
 **baseMean**
 
@@ -158,19 +158,20 @@ This is the most reliable measure to decide significance.
 |**GeneA**| 150.3    | 2.1            | 0.4   | 5.25  | 1.2e-07 | 3.5e-04 |
 |**GeneB**| 75.8     | -1.3           | 0.6   | -2.16 | 0.031   | 0.12    |
 
-GeneA: Highly expressed, significantly upregulated (log₂FC=2.1, padj < 0.05).
+**GeneA:** Highly expressed, significantly upregulated (log₂FC=2.1, padj < 0.05).
 
-GeneB: Downregulated (log₂FC=-1.3), but not significant after correction (padj=0.12).
+**GeneB:** Downregulated (log₂FC=-1.3), but not significant after correction (padj=0.12).
 
 ### Step 7: Data Visualization
-MA Plot
+
+**MA Plot**
 
 Shows the relationship between gene expression (mean counts) and fold change.
 ```{r}
 plotMA(res, ylim=c(-5,5))
 ```
 
-Volcano Plot
+**Volcano Plot**
 
 Highlights significantly differentially expressed genes.
 ```{r}
@@ -248,7 +249,8 @@ ggplot(res_df, aes(x = log2FoldChange, y = -log10(padj), color = Significance)) 
 ```
 
 
-Heatmap of Top Genes
+**Heatmap of Top Genes**
+
 ```{r fig.width=10, fig.height=8}
 # Select top 30 significant genes
 top_genes <- head(order(res$padj),30)
@@ -265,6 +267,7 @@ Finally, we save the results table.
 ```{r}
 write.csv(as.data.frame(res), "GSE179477_DESeq2_results.csv")
 ```
+
 
 
 

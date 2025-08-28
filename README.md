@@ -53,7 +53,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 ### Day 2 Plan: Phylogeny, Biostatistics & Transcriptomics
 |**Time**|**Session**|**File link**|**Details**|
 |:---:|:---:|:---:|:---:|
-9:00 AM - 9:30 AM| **Recap of Day 1 Activities**
+9:00 AM - 9:30 AM| **Recap of Day 1 Activities**| ---- | ---- |
 9:30 AM - 10:30 AM| **Phylogenetics** | [Phylogenetics Guide PDF file](Modules/Phylogenetics_Guide.pdf)| Tool: Clustal Omega, MEGA
 10:30 AM - 11:00 AM| Break | Break | Break
 11:00 AM - 12:30 PM| **Biostatistics in R for Omics Data**| ---- | Tool: RStudio (cloud or local); Task: Volcano plots, boxplots, PCA

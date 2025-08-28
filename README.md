@@ -41,7 +41,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 ### Day 1 Plan: Genomics & Sequence Analysis
 |**Time**|**Session**|**File link**| **Details** |
-|:---:|:---:|:---:|:---|
+|:---:|:---:|:---:|:---:|
 9:00 AM - 9:30 AM| **Welcome & Overview**| ---- | Workshop objectives, introduction to bioinformatics, relevance to mycotoxin research
 9:30 AM - 10:30 AM| **Introduction to Biological Databases** | [Introduction PDF file](Modules/Bioinformatics_Workshop_Introduction.pdf)| NCBI, ENA, UniProt, PDB, Ensembl, KEGG - how to search, download, and interpret
 10:30 AM - 11:00 AM| Break | Break | Break

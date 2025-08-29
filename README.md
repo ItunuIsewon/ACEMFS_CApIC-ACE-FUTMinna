@@ -138,7 +138,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 ## Group 3
 
-[Genomics Project]
+[Genomics Project](Modules/Genomic_Data_Analysis_Mini_Project.pdf)
 
 
 ## Post- Workshop Instruction

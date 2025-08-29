@@ -1,3 +1,5 @@
+## Mini- Projects for the Introduction to Bioinformatics Workshop
+
 ## GROUP 1 PROJECT
 
 **Author:** Itunuoluwa Isewon PhD     

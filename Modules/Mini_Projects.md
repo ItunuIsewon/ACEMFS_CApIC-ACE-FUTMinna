@@ -236,7 +236,8 @@ Output: functionally annotated VCF + summary.
 
 7) Core SNP Matrix (Galaxy)
    
-### Goal: derive a core SNP alignment.
+**Goal: derive a core SNP alignment.**
+
 1.	Extract biallelic SNPs only (e.g., bcftools view -v snps -m2 -M2).
 
 2.	Create alignment:

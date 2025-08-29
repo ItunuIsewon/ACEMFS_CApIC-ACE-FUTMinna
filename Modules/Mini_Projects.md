@@ -1,6 +1,7 @@
 ## GROUP 1 PROJECT
 
-**Author:** Itunuoluwa Isewon PhD      	
+**Author:** Itunuoluwa Isewon PhD     
+
 **Email:** itunu.isewon@covenantuniversity.edu.ng
 
 ## Phylogenetic Analysis of Fungal 28S Sequences

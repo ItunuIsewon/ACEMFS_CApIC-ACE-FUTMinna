@@ -132,15 +132,15 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 ### Group 1
 
-[Phylogenetics Project](Modules/Phylogenetics_Mini_Project.pdf)
+[Phylogenetics Project PDF file](Modules/Phylogenetics_Mini_Project.pdf)
 
 ### Group 2
 
-[Transcriptomics Project](Modules/Transcriptomics_Mini_Project.pdf)
+[Transcriptomics Project PDF file](Modules/Transcriptomics_Mini_Project.pdf)
 
 ## Group 3
 
-[Genomics Project](Modules/Genomic_Data_Analysis_Mini_Project.pdf)
+[Genomics Project PDF file](Modules/Genomic_Data_Analysis_Mini_Project.pdf)
 
 
 ## Post- Workshop Instruction

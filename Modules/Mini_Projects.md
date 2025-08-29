@@ -1,4 +1,4 @@
-## Mini- Projects for the Introduction to Bioinformatics Workshop
+# Mini- Projects for the Introduction to Bioinformatics Workshop
 
 ## GROUP 1 PROJECT
 

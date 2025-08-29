@@ -128,6 +128,8 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 ## Mini-projects
 
+[Mini-Projects for Introduction to Bioinformatics Workshop](
+
 ### Group 1
 
 [Phylogenetics Project](Modules/Phylogenetics_Mini_Project.pdf)

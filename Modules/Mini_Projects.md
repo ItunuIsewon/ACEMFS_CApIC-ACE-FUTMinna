@@ -26,6 +26,7 @@ The 28S region of rDNA is widely used as a DNA barcode for fungi. In this projec
 FASTA file containing: 
 
 •	28S sequences from 5 known fungal species
+
 •	Several unknown 28S sequences to classify
 
 Download dataset [here](https://drive.google.com/file/d/1Du-DAWhij6LZp5tCMSdW5byBG34W07t2/view?usp=sharing)
@@ -78,6 +79,7 @@ In this mini-project, participants will perform differential gene expression ana
 ### Objectives
 
 By the end of this mini-project, participants will be able to:
+
 •	Import RNA-seq count data and metadata into R.
 •	Conduct differential expression analysis using DESeq2.
 •	Visualize results using MA plots, heatmaps, and volcano plots.
@@ -95,6 +97,7 @@ Download dataset [here](https://drive.google.com/file/d/1icHEWAFlmqGRfxUaq6zIF9S
 ### Tasks
 
 Participants are expected to carry out the following steps:
+
 1.	Load count data and metadata into R.
 2.	Normalize data using DESeq2.
 3.	Conduct differential expression analysis.
@@ -104,6 +107,7 @@ Participants are expected to carry out the following steps:
 **Required R Packages**
 
 The following R packages will be needed for this project:
+
 - DESeq2 (for differential expression analysis)
 - pheatmap (for heatmaps)
 - EnhancedVolcano (for volcano plots)
@@ -113,6 +117,7 @@ The following R packages will be needed for this project:
 ### Expected Output
 
 By completing this project, participants should produce:
+
 •	A heatmap of top differentially expressed genes.
 •	A volcano plot highlighting significant genes.
 •	A list of significantly upregulated and downregulated genes.
@@ -121,7 +126,7 @@ By completing this project, participants should produce:
 
 ## GROUP 3 PROJECT
 
-## Mini Project: End-to-End Genomic Data Analysis of Fungal Isolates (Galaxy)
+## End-to-End Genomic Data Analysis of Fungal Isolates (Galaxy)
 
 ### Background
 Whole-genome resequencing (WGS) enables variant discovery and comparative genomics across fungal isolates. In this project, students will process short-read FASTQ files from 5 known fungal species plus several unknown isolates. They will perform quality control, read trimming, reference-guided alignment, variant calling, and annotation in Galaxy.
@@ -129,12 +134,15 @@ Whole-genome resequencing (WGS) enables variant discovery and comparative genomi
 ### Objectives
 
 ●	Navigate public databases to find references, annotations, and reads (NCBI/ENA/SRA, Ensembl Fungi).
+
 ●	Execute a complete WGS pipeline in Galaxy: QC → trimming → alignment → post-processing → joint variant calling → filtering → annotation → core SNP matrix.
 
 ### Dataset Provided
 
 A project folder containing:
+
 •	FASTQ (paired-end) reads for:
+
 1.	5 known fungal species (≥2 isolates each if available).
 2.	Several unknown isolates to classify.
 

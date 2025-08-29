@@ -128,7 +128,7 @@ All Participants are required to fill this [form](https://forms.gle/tJNSFaoHCDnj
 
 ## Mini-projects
 
-[Mini-Projects for Introduction to Bioinformatics Workshop](
+[Mini-Projects for Introduction to Bioinformatics Workshop](Modules/Mini_Projects.md)
 
 ### Group 1
 

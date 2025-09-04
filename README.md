@@ -23,8 +23,8 @@ The **Covenant Applied Informatics and Communication Africa Centre for Ecellence
 
 
 ******
-## Trainer
-<img src="Images/Trainer.png" alt="Alt text" width="300">
+## Facilitators
+<img src="Images/Trainer.png" alt="Alt text" width="300"> <img src="Images/Trainer2.png" alt="Alt text" width="300">
 
 ## Teaching Assistants
 <img src="Images/Teaching Assts.png" alt="Alt text" width="800">
